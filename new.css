@@ -47,6 +47,7 @@
     .a:hover{
         background-color: rgba(138, 16, 138, 0.747);
         transition: 0.5s all;
+        transform: scale(1.2);
     }
 
     .a{
@@ -164,10 +165,11 @@
         color: #2025259a; 
     }
     .btn-enviar {
-        width: 40%;
+        height: 35px;
+        width: 120px;
         display: flex;
         justify-content: center;
-        text-align: center;
+        align-items: center;
         padding: 16px 0px;
         margin: 25px;
         border: none;
@@ -186,5 +188,10 @@
     .btn-enviar:hover {
         background-color: #56259767;
         transition: 0.5s;
+        transform: scale(1.1);
 
     }
+
+
+
+   
